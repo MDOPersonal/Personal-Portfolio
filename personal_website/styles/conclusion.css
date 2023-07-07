@@ -1,0 +1,58 @@
+.page-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 300px;
+}
+
+button{
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(213,181,110);
+    border-radius: 15px;
+    border: solid;
+    border-width: 10px;
+    color: #023020;
+}
+
+.contact-container {
+    margin-top: 100px;
+    display: block;
+    background-color: rgb(213,181,110);
+    width: 1210px;
+    justify-content: center;
+}
+.contact-me {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.contact-info {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.copyright-container {
+    display: block;  
+    margin: 0px;
+    padding: 0px;
+    text-align: end;
+}
+
+.copyright-text {
+    color:white;
+    margin: 5px;
+    padding-right: 10px;
+}
